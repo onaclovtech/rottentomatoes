@@ -1,4 +1,8 @@
-//rottentomatoes angular service
+/*
+   Rottentomatoes.js v0.0.1
+   rottentomatoes angular service
+   Written by Tyson Bailey
+*/
   angular.module('video', []).factory('$video', ['$http',
       function($http) {
           return {
@@ -16,4 +20,3 @@
       }
   ]);
   
-  // Need to update to return the promise and the success and error are managed in the returned function (unless someone has a better idea)
