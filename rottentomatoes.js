@@ -3,7 +3,7 @@
    rottentomatoes angular service
    Written by Tyson Bailey
 */
-  angular.module('video', []).factory('$video', ['$http',
+  angular.module('movie', []).factory('$movie', ['$http',
       function($http) {
           return {
               search: function(api_key, query, page_limit) {
