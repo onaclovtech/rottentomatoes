@@ -1,0 +1,22 @@
+{
+  "name": "rottentomatoes",
+  "version": "0.0.1",
+  "description": "AngularJS Service for Movie lookups",
+  "main": "rottentomatoes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onaclovtech/rottentomatoes.git"
+  },
+  "keywords": [
+    "angularjsservices", "ng-services", "ngservices"
+  ],
+  "author": "Tyson Bailey",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/onaclovtech/rottentomatoes/issues"
+  },
+  "homepage": "https://github.com/onaclovtech/rottentomatoes"
+}
