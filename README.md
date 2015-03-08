@@ -7,15 +7,15 @@ Additional Notes
 =================
 Using rottentomatoes in your own app is easy now.
 
-Simply reference email in your module:
+Simply reference 'movie' in your module:
 
      var app = angular.module('myapp', ['movie']);
 
-and then $email in your controller:
+and then '$movie' in your controller:
 
      function MyController($scope, $movie)
      
-Finally request a book:
+Finally request a video:
 
      $video.search(api_key,query,results); 
 
