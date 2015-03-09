@@ -15,8 +15,8 @@ and then '$movie' in your controller:
 
      function MyController($scope, $movie)
      
-Finally request a video:
+Finally request a movie:
 
-     $video.search(api_key,query,results); 
+     $movie.search(api_key,query,results); 
 
 If you'd like to create a service for another data provider please add to NPM using angularjsservices, ng-services, or ngservices as the keyword I plan to aggregate using that at some point.
